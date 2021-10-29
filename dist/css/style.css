@@ -434,7 +434,7 @@ body {
 
 .header-nav-menu .active {
   opacity: 1;
-  z-index: 1;
+  z-index: 99;
   -webkit-transform: translateY(0%);
       -ms-transform: translateY(0%);
           transform: translateY(0%);

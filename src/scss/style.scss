@@ -390,7 +390,7 @@ body{
     }
     .active {
         opacity: 1;
-        z-index: 1;
+        z-index: 99;
         transform: translateY(0%);
         transition-delay: 0s, 0s, 0.3s; 
         visibility: visible;
