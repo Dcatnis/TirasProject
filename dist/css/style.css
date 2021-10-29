@@ -523,7 +523,7 @@ body {
 }
 
 .hero-container .hero-title h1 {
-  font-size: 36px;
+  font-size: clamp(12px, 8vw, 36px);
   font-weight: 800;
   letter-spacing: 5.94px;
   color: #fff;
@@ -1520,5 +1520,13 @@ footer .footer-chat-icon img:hover {
 
   .copyright-content img {
     width: 30% !important;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header-main .header-navigation .header-navigation-icons .headphones,
+  .header-main .header-navigation .header-navigation-icons .heart,
+  .header-main .header-navigation .header-navigation-icons .cart {
+    margin-right: 30px;
   }
 }

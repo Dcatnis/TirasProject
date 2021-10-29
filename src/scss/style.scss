@@ -202,6 +202,13 @@ body{
             .headphones,.heart,.cart{
                 margin-right: 47px;
             }
+
+            @media screen and (max-width: 300px){
+                .headphones,.heart,.cart{
+                    margin-right: 30px;
+                }
+            }
+
             .heart{
                 position: relative;
                 &::after{
@@ -525,7 +532,7 @@ body{
        padding-top: 25px;
        
        h1{
-        font-size: 36px;
+        font-size: clamp(12px, 8vw, 36px);
         font-weight: 800;
         letter-spacing: 5.94px;
         color: #fff;
